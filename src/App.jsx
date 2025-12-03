@@ -1,3 +1,4 @@
+import FloatingIcons from "./FloatingIcons"
 import LandingPageToshiba from "./LandingPageToshiba"
 
 
