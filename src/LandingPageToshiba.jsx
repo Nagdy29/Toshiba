@@ -134,6 +134,9 @@ export default function LandingPageToshiba() {
         <Link to="/zonasi" className="hover:underline">
           Zonasi
         </Link>
+             <Link to="/lg" className="hover:underline">
+          LG
+        </Link>
 
         <span className="bg-white text-[#e60012] px-3 py-1 rounded-md shadow">
           📞 01036378900

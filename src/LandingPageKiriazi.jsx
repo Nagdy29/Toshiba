@@ -132,6 +132,9 @@ const mainColor = "#008000";
       <div className="hidden md:flex gap-4 items-center">
         <Link to="/" className="hover:underline">Toshiba</Link>
         <Link to="/zonasi" className="hover:underline">Zonasi</Link>
+           <Link to="/lg" className="hover:underline">
+                  LG
+                </Link>
 
         <span
           className="bg-white px-3 py-1 rounded-md shadow"

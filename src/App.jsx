@@ -3,6 +3,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import LandingPageToshiba from "./LandingPageToshiba";
 import LandingPageKiriazi from "./LandingPageKiriazi";
 import LandingPageZonasi from "./LandingPageZonasi";
+import LandingPageLG from "./LandingPageLG";
 
 export default function App() {
   return (
@@ -11,6 +12,7 @@ export default function App() {
         <Route path="/" element={<LandingPageToshiba />} />
         <Route path="/kiriazi" element={<LandingPageKiriazi />} />
         <Route path="/zonasi" element={<LandingPageZonasi />} />
+        <Route path="/lg" element={<LandingPageLG />} />
       </Routes>
     </BrowserRouter>
   );
