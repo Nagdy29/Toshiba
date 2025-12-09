@@ -168,6 +168,7 @@ const mainColor = "#008000";
           <div className="flex flex-col gap-4 text-lg">
             <Link to="/" onClick={() => setMenuOpen(false)}>Toshiba</Link>
             <Link to="/zonasi" onClick={() => setMenuOpen(false)}>Zonasi</Link>
+            <Link to="/lg" onClick={() => setMenuOpen(false)}>LG</Link>
 
             <span
               className="bg-white px-3 py-2 rounded-md shadow mt-4 text-center"

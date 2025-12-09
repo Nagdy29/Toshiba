@@ -169,6 +169,8 @@ export default function LandingPageToshiba() {
             <Link to="/zonasi" onClick={() => setMenuOpen(false)}>
               Zonasi
             </Link>
+                        <Link to="/lg" onClick={() => setMenuOpen(false)}>LG</Link>
+            
 
             <span className="bg-white text-[#e60012] px-3 py-1 rounded-md shadow mt-4 text-center">
               📞 01036378900
